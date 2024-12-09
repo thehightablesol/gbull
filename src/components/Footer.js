@@ -18,11 +18,11 @@ export default function Footer() {
         <div className='flex items-center justify-center lg:gap-x-12'>
 
           <div className='z-10 lg:w-4/12'>
-            <img src={bottom} alt='' className='rounded-full lg:w-auto w-48  border-4 border-black-100'></img>
+            <img src={bottom} alt='' className='rounded-full lg:w-auto w-56 border-4 border-black-100'></img>
           </div>
 
-          <div className='bg-white-50 border-4 border-black-100 rounded-xl lg:p-10 py-5 pl-12 pr-8 lg:w-6/12 lg:space-y-8 space-y-3 lg:-translate-x-32 -translate-x-12 lg:h-auto h-36'>
-            <p className='lg:text-5xl md:text-2xl text-xl uppercase text-red-100 font-brother text-center'>become a $pump bro</p>
+          <div className='bg-white-50 border-4 border-black-100 rounded-xl lg:p-10 py-4 pl-12 pr-6 lg:w-6/12 lg:space-y-8 space-y-2 lg:-translate-x-32 -translate-x-12 lg:h-auto h-32'>
+            <p className='lg:text-5xl md:text-2xl text-lg uppercase text-red-100 font-brother text-center'>become a $pump bro</p>
 
             <div className='flex items-center justify-center'>
               <a href='https://t.co/rMNr9LWk3h'><img src={icon1} alt='telegram' className='lg:w-28 w-10'></img></a>
