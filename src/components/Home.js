@@ -45,11 +45,11 @@ export default function Home() {
                         <img data-aos='zoom-in-up' src={top} alt='' className='flex mx-auto lg:w-7/12'></img>
 
                         <div className='flex items-center lg:justify-start justify-center lg:-translate-y-20'>
-                            <a href='https://t.co/rMNr9LWk3h'><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://x.com/pumpbysol'><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'><img src={icon3} alt='' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1732941262458'><img src={icon4} alt='dextools' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2'><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://t.co/rMNr9LWk3h' target='_blank'><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://x.com/pumpbysol' target='_blank'><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank'><img src={icon3} alt='' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1732941262458' target='_blank'><img src={icon4} alt='dextools' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2' target='_blank'><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                         </div>
 
                         <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-12'>
