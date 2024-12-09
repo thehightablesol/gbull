@@ -184,7 +184,7 @@ export default function Home() {
 
             {/* how to buy section */}
 
-            <div id='buy' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-white-50">
+            <div id='buy' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-white-50 lg:-mt-0 -mt-6 ">
                 <div className='container mx-auto'>
 
                     <div className='lg:flex hidden items-center justify-center gap-x-12'>

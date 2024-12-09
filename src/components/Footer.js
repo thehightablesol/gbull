@@ -28,9 +28,9 @@ export default function Footer() {
               <p className='md:text-5xl text-xl uppercase text-center text-red-100 font-brother'>become a $pump bro</p>
 
               <div className='flex items-center justify-center'>
-                <a href='https://t.co/rMNr9LWk3h'><img src={icon1} alt='telegram' className='lg:w-28 w-12'></img></a>
-                <a href='https://x.com/pumpbysol'><img src={icon2} alt='twitter' className='lg:w-28 w-12'></img></a>
-                <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'><img src={icon3} alt='instagram' className='lg:w-28 w-12'></img></a>
+                <a href='https://t.co/rMNr9LWk3h'><img src={icon1} alt='telegram' className='lg:w-28 w-10'></img></a>
+                <a href='https://x.com/pumpbysol'><img src={icon2} alt='twitter' className='lg:w-28 w-10'></img></a>
+                <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'><img src={icon3} alt='instagram' className='lg:w-28 w-10'></img></a>
               </div>
             </div>
           </div>
