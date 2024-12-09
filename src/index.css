@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "bangers";
+    src: url("../public/Bangers.ttf");
+}
+
+@font-face {
+    font-family: "brightsight";
+    src: url("../public/BRIGHTSIGHT02.ttf");
+}
+
+@font-face {
+    font-family: "chewy";
+    src: url("../public/Chewy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "kandy";
+    src: url("../public/kandyyum.ttf");
+}
+
+@font-face {
+    font-family: "brother";
+    src: url("../public/BROTHER-Bold.ttf");
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "bangers";
+    src: url("../public/Bangers.ttf");
+}
+
+@font-face {
+    font-family: "brightsight";
+    src: url("../public/BRIGHTSIGHT02.ttf");
+}
+
+@font-face {
+    font-family: "chewy";
+    src: url("../public/Chewy-Regular.ttf");
+}
+
+@font-face {
+    font-family: "kandy";
+    src: url("../public/kandyyum.ttf");
+}
+
+@font-face {
+    font-family: "brother";
+    src: url("../public/BROTHER-Bold.ttf");
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJ0YWlsd2luZE91dC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAdGFpbHdpbmQgYmFzZTtcbkB0YWlsd2luZCBjb21wb25lbnRzO1xuQHRhaWx3aW5kIHV0aWxpdGllcztcblxuQGZvbnQtZmFjZSB7XG4gICAgZm9udC1mYW1pbHk6IFwiYmFuZ2Vyc1wiO1xuICAgIHNyYzogdXJsKFwiLi4vcHVibGljL0JhbmdlcnMudHRmXCIpO1xufVxuXG5AZm9udC1mYWNlIHtcbiAgICBmb250LWZhbWlseTogXCJicmlnaHRzaWdodFwiO1xuICAgIHNyYzogdXJsKFwiLi4vcHVibGljL0JSSUdIVFNJR0hUMDIudHRmXCIpO1xufVxuXG5AZm9udC1mYWNlIHtcbiAgICBmb250LWZhbWlseTogXCJjaGV3eVwiO1xuICAgIHNyYzogdXJsKFwiLi4vcHVibGljL0NoZXd5LVJlZ3VsYXIudHRmXCIpO1xufVxuXG5AZm9udC1mYWNlIHtcbiAgICBmb250LWZhbWlseTogXCJrYW5keVwiO1xuICAgIHNyYzogdXJsKFwiLi4vcHVibGljL2thbmR5eXVtLnR0ZlwiKTtcbn1cblxuQGZvbnQtZmFjZSB7XG4gICAgZm9udC1mYW1pbHk6IFwiYnJvdGhlclwiO1xuICAgIHNyYzogdXJsKFwiLi4vcHVibGljL0JST1RIRVItQm9sZC50dGZcIik7XG59Il19 */
