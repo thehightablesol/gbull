@@ -34,7 +34,7 @@ export default function Home() {
     }, [])
 
     return (
-        <div className="overflow-hidden text-black-100">
+        <div className="overflow-hidden text-black-100 bg-white-50">
 
             <div className="lg:px-20 px-5 bg-yellow-100 md:h-auto h-screen">
                 <div className='container mx-auto'>
@@ -75,7 +75,7 @@ export default function Home() {
 
             {/* pump story section */}
 
-            <div id='story' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-story">
+            <div id='story' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-story border-t-4 border-black-100">
                 <div className='container mx-auto'>
 
                     <div className="lg:flex block justify-between items-end gap-x-12">
@@ -130,13 +130,13 @@ export default function Home() {
 
             {/* pumpenomics */}
 
-            <div id='pumpenomics' className="lg:pt-20 pt-5 bg-yellow-100 lg:px-20 px-5">
+            <div id='pumpenomics' className="lg:pt-20 pt-5 bg-yellow-100 lg:px-20 px-5 border-t-4 border-black-100">
 
                 <div className='container mx-auto'>
                     <div className='flex items-end'>
-                        <img src={b} alt='' className='md:w-28 w-20 translate-x-12 z-10 rotate-6'></img>
+                        <img src={b} alt='' className='md:w-28 w-20 translate-x-14 z-10 rotate-6 -translate-y-12'></img>
 
-                        <div className='animate-beat'>
+                        <div className='animate-beat lg:pb-20 pb-8'>
                             <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl -rotate-6 text-center uppercase'>
                                 pumpenomics
                             </button>
@@ -171,7 +171,7 @@ export default function Home() {
                         </div>
 
                         <div data-aos='fade-in' data-aos-delay='150' className='lg:w-3/12'>
-                            <div className='text-blue-100 md:text-5xl text-2xl font-brother text-outline tracking-wide text-center uppercase lg:block hidden -translate-x-48'>
+                            <div className='text-blue-100 md:text-5xl text-2xl font-brother text-outline tracking-wide text-center uppercase lg:block hidden -translate-x-44'>
                                 <p>token ticker</p>
                                 <p>-</p>
                                 <p>$pump</p>
@@ -184,7 +184,7 @@ export default function Home() {
 
             {/* how to buy section */}
 
-            <div id='buy' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-white-50 lg:-mt-0 -mt-6 ">
+            <div id='buy' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-white-50 lg:-mt-0 -mt-6 border-t-4 border-black-100">
                 <div className='container mx-auto'>
 
                     <div className='lg:flex hidden items-center justify-center gap-x-12'>
@@ -304,7 +304,7 @@ export default function Home() {
 
             {/* about us section */}
 
-            <div id='about' className="lg:px-20 px-5 lg:py-24 py-6 bg-blue-100">
+            <div id='about' className="lg:px-20 px-5 lg:py-24 py-6 bg-blue-100 border-t-4 border-black-100">
                 <div className='container mx-auto'>
 
                     <div className='lg:mb-20 mb-8'>
@@ -343,7 +343,7 @@ export default function Home() {
 
             {/* Our Partners section */}
 
-            <div id="partners" className="lg:pt-20 pt-5 lg:px-20 px-5 bg-white-50">
+            <div id="partners" className="lg:pt-20 pt-5 lg:px-20 px-5 bg-white-50 border-y-4 border-black-100">
                 <div className='container mx-auto'>
                     <h2 className='text-outline font-bangers text-red-100 md:text-6xl text-3xl text-center'>
                         Our Partners
