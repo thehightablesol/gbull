@@ -52,7 +52,7 @@ export default function Home() {
                             <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2' target='_blank'><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                         </div>
 
-                        <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-12'>
+                        <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-16'>
                             <p className='p-2 border-4 border-r-0 rounded-r-none border-black-100 bg-white-50 rounded-md font-chewy md:text-2xl text-sm tracking-wide'>
                                 CA: 50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
                             </p>
