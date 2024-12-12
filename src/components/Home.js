@@ -12,13 +12,12 @@ import a from '../assets/a.png'
 import b from '../assets/b.png'
 import d from '../assets/d.png'
 import buy from '../assets/buy.png'
-import partners from '../assets/partners.png'
+// import partners from '../assets/partners.png'
 import pumpenomics from '../assets/pumpenomics.png'
 import card1 from '../assets/card1.png'
 import card2 from '../assets/card2.png'
 import card3 from '../assets/card3.png'
 import copy from '../assets/copy.png'
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from './Footer'
@@ -57,11 +56,11 @@ export default function Home() {
                         <img data-aos='zoom-in-up' src={top} alt='' className='flex mx-auto lg:w-7/12'></img>
 
                         <div className='flex items-center lg:justify-start justify-center lg:-translate-y-20'>
-                            <a href='https://t.co/rMNr9LWk3h' target='_blank'><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://x.com/pumpbysol' target='_blank'><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank'><img src={icon3} alt='' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1732941262458' target='_blank'><img src={icon4} alt='dextools' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2' target='_blank'><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://t.co/rMNr9LWk3h' target='_blank' rel="noreferrer"><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://x.com/pumpbysol' target='_blank' rel="noreferrer"><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank' rel="noreferrer"><img src={icon3} alt='' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1732941262458' target='_blank' rel="noreferrer"><img src={icon4} alt='dextools' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2' target='_blank' rel="noreferrer"><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                         </div>
 
                         <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-16'>
