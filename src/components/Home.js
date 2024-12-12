@@ -330,29 +330,29 @@ export default function Home() {
                         <img src={about1} alt='' className='lg:w-8/12 flex mx-auto animate-beat'></img>
                     </div>
 
-                    <div className='grid md:grid-cols-3 grid-cols-1 items-center justify-center lg:gap-x-24 md:gap-x-6 gap-y-6'>
+                    <div className='grid md:grid-cols-3 grid-cols-1 items-start justify-center lg:gap-x-24 md:gap-x-6 gap-y-6'>
 
                         <div data-aos='fade-up' className='bg-white-50 p-6 border-3 border-black-100 rounded-md card-shadow'>
                             <img src={card1} alt='card' className='border-3 border-black-100 rounded-md'></img>
                             <div className='text-center font-chewy pt-5 space-y-5'>
-                                <p className='md:text-2xl text-xl'>Resource Title Goes Here</p>
-                                <p className='md:text-xl text-lg'>Add a brief description about what this resource is about.</p>
+                                <p className='md:text-2xl text-xl'>The Bull Awakens</p>
+                                <p className='md:text-xl text-lg'>The energy is unmatched, the strength is legendary. The bull's journey has just begun.</p>
                             </div>
                         </div>
 
                         <div data-aos='fade-up' data-aos-delay='150' className='bg-white-50 p-6 border-3 border-black-100 rounded-md card-shadow'>
                             <img src={card2} alt='card' className='border-3 border-black-100 rounded-md'></img>
                             <div className='text-center font-chewy pt-5 space-y-5'>
-                                <p className='md:text-2xl text-xl'>Resource Title Goes Here</p>
-                                <p className='md:text-xl text-lg'>Add a brief description about what this resource is about.</p>
+                                <p className='md:text-2xl text-xl'>Bullish Moves</p>
+                                <p className='md:text-xl text-lg'>From the boardroom to the dojo, it's all about making power plays.</p>
                             </div>
                         </div>
 
                         <div data-aos='fade-up' data-aos-delay='300' className='bg-white-50 p-6 border-3 border-black-100 rounded-md card-shadow'>
                             <img src={card3} alt='card' className='border-3 border-black-100 rounded-md'></img>
                             <div className='text-center font-chewy pt-5 space-y-5'>
-                                <p className='md:text-2xl text-xl'>Resource Title Goes Here</p>
-                                <p className='md:text-xl text-lg'>Add a brief description about what this resource is about.</p>
+                                <p className='md:text-2xl text-xl'>Full Throttle</p>
+                                <p className='md:text-xl text-lg'>No limits, no brakes—just raw power charging ahead.</p>
                             </div>
                         </div>
                     </div>
