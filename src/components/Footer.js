@@ -25,12 +25,14 @@ export default function Footer() {
             <p className='lg:text-5xl md:text-2xl text-lg uppercase text-red-100 font-brother text-center'>become a $pump bro</p>
 
             <div className='flex items-center justify-center'>
-              <a href='https://t.co/rMNr9LWk3h' target='_blank'><img src={icon1} alt='telegram' className='lg:w-28 w-10'></img></a>
-              <a href='https://x.com/pumpbysol' target='_blank'><img src={icon2} alt='twitter' className='lg:w-28 w-10'></img></a>
-              <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank'><img src={icon3} alt='instagram' className='lg:w-28 w-10'></img></a>
+              <a href='https://t.co/rMNr9LWk3h' target='_blank'><img src={icon1} alt='telegram' className='lg:w-28 w-10 animate-wiggle'></img></a>
+              <a href='https://x.com/pumpbysol' target='_blank'><img src={icon2} alt='twitter' className='lg:w-28 w-10 animate-wiggle'></img></a>
+              <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank'><img src={icon3} alt='instagram' className='lg:w-28 w-10 animate-wiggle'></img></a>
             </div>
           </div>
         </div>
+
+        <p className='pt-8 text-center font-chewy'>© {new Date().getFullYear()} by PUMP. All rights reserved.</p>
       </div>
     </footer>
 

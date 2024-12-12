@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Menu from './Menu'
 import top from '../assets/top.png'
 import icon1 from '../assets/icon1.png'
@@ -6,7 +6,6 @@ import icon2 from '../assets/icon2.png'
 import icon3 from '../assets/icon3.png'
 import icon4 from '../assets/icon4.png'
 import icon5 from '../assets/icon5.png'
-import ca from '../assets/CA.png'
 import about from '../assets/about.png'
 import about1 from '../assets/32.png'
 import a from '../assets/a.png'
@@ -33,6 +32,19 @@ export default function Home() {
         });
     }, [])
 
+    const [copySuccess, setCopySuccess] = useState('');
+
+    // your function to copy here
+
+    const copyToClipBoard = async copyMe => {
+        try {
+            await navigator.clipboard.writeText(copyMe);
+            setCopySuccess('Copied!');
+        } catch (err) {
+            setCopySuccess('Failed to copy!');
+        }
+    };
+
     return (
         <div className="overflow-hidden text-black-100 bg-white-50">
 
@@ -56,14 +68,21 @@ export default function Home() {
                             <p className='p-2 border-4 border-r-0 rounded-r-none border-black-100 bg-white-50 rounded-md font-chewy md:text-2xl text-sm tracking-wide'>
                                 CA: 50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
                             </p>
-                            <button><img src={copy} alt='' className='w-16'></img></button>
+                            <button onClick={() => copyToClipBoard('50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA')} ><img src={copy} alt='' className='w-16'></img></button>
+                            <span className="absolute duration-300 translate-y-12 -translate-x-3 font-chewy text-sm">
+                                {copySuccess}
+                            </span>
                         </div>
 
                         <div className='md:hidden flex items-center justify-between lg:-translate-y-12 border-4 bg-white-50 rounded-md p-3'>
                             <p className='border-r-0 rounded-r-none border-black-100 font-chewy md:text-2xl text-sm tracking-wide break-words w-10/12'>
                                 CA:50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
                             </p>
-                            <button><img src={copy} alt='' className='w-12'></img></button>
+
+                            <button onClick={() => copyToClipBoard('50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA')} ><img src={copy} alt='' className='w-12'></img></button>
+                            <span className="absolute font-chewy -translate-y-14 text-sm">
+                                {copySuccess}
+                            </span>
                         </div>
 
                     </div>
@@ -134,7 +153,7 @@ export default function Home() {
 
                 <div className='container mx-auto'>
                     <div className='flex items-end'>
-                        <img src={b} alt='' className='md:w-28 w-20 translate-x-14 z-10 rotate-6 -translate-y-12'></img>
+                        <img src={b} alt='' className='md:w-28 w-20 translate-x-12 z-10 rotate-6 md:-translate-y-12 -translate-y-5'></img>
 
                         <div className='animate-beat lg:pb-20 pb-8'>
                             <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl -rotate-6 text-center uppercase'>
@@ -256,7 +275,7 @@ export default function Home() {
                             <img data-aos='fade-up' src={buy} alt=''></img>
                         </div>
 
-                        <div className='pb-6'>  
+                        <div className='pb-6'>
                             <div className='space-y-6'>
 
                                 <div className='flex items-start justify-between gap-6'>
@@ -343,7 +362,7 @@ export default function Home() {
 
             {/* Our Partners section */}
 
-            <div id="partners" className="lg:pt-20 pt-5 lg:px-20 px-5 bg-white-50 border-y-4 border-black-100">
+            {/* <div id="partners" className="lg:pt-20 pt-5 lg:px-20 px-5 bg-white-50 border-y-4 border-black-100">
                 <div className='container mx-auto'>
                     <h2 className='text-outline font-bangers text-red-100 md:text-6xl text-3xl text-center'>
                         Our Partners
@@ -390,7 +409,7 @@ export default function Home() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             <Footer />
 

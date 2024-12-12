@@ -28,9 +28,10 @@ export default function Menu() {
             <li><a href="#pumpenomics" className="">Pumpenomics</a></li>
             <li><a href="#buy" className="">how to buy</a></li>
             <li>
-              <button className='bg-red-100 py-2 px-4 border-4 border-black-100 rounded-xl font-chewy text-yellow-100 uppercase text-outline text-2xl'>
+              <a href='https://jup.ag/swap/SOL-5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'> <button className='bg-red-100 py-2 px-4 border-4 border-black-100 rounded-xl font-chewy text-yellow-100 uppercase text-outline text-2xl'>
                 buy now
               </button>
+              </a>
             </li>
           </ul>
         </nav>
@@ -67,9 +68,10 @@ export default function Menu() {
               <li><a href="#pumpenomics" className="">Pumpenomics</a></li>
               <li><a href="#buy" className="">how to buy</a></li>
               <li>
-                <button className='bg-red-100 py-2 px-4 border-4 border-black-100 rounded-xl font-chewy text-yellow-100 uppercase text-outline text-xl'>
+                <a href='https://jup.ag/swap/SOL-5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'><button className='bg-red-100 py-2 px-4 border-4 border-black-100 rounded-xl font-chewy text-yellow-100 uppercase text-outline text-xl'>
                   buy now
                 </button>
+                </a>
               </li>
             </ul>
           </div>
