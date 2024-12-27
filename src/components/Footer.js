@@ -27,7 +27,7 @@ export default function Footer() {
             <div className='flex items-center justify-center'>
               <a href='https://t.co/rMNr9LWk3h' target='_blank' rel="noreferrer"><img src={icon1} alt='telegram' className='lg:w-28 w-10 animate-wiggle'></img></a>
               <a href='https://x.com/pumpbysol' target='_blank' rel="noreferrer"><img src={icon2} alt='twitter' className='lg:w-28 w-10 animate-wiggle'></img></a>
-              <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank' rel="noreferrer"><img src={icon3} alt='instagram' className='lg:w-28 w-10 animate-wiggle'></img></a>
+              <a href='https://www.instagram.com/pumpbysol/' target='_blank' rel="noreferrer"><img src={icon3} alt='instagram' className='lg:w-28 w-10 animate-wiggle'></img></a>
             </div>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function Home() {
                         <div className='flex items-center lg:justify-start justify-center lg:-translate-y-20'>
                             <a href='https://t.co/rMNr9LWk3h' target='_blank' rel="noreferrer"><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                             <a href='https://x.com/pumpbysol' target='_blank' rel="noreferrer"><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://solscan.io/token/5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA' target='_blank' rel="noreferrer"><img src={icon3} alt='' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://www.instagram.com/pumpbysol/'><img src={icon3} alt='instagram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                             <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1732941262458' target='_blank' rel="noreferrer"><img src={icon4} alt='dextools' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                             <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2' target='_blank' rel="noreferrer"><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                         </div>
