@@ -24,7 +24,7 @@ export default function Menu() {
         <nav>
           <ul className="text-xl tracking-wide flex justify-center gap-10 items-center uppercase text-center">
             <li><a href="/" className="">Home</a></li>
-            <li><a href="#story" className="">the story<br></br> behind $pupm</a></li>
+            <li><a href="#story" className="">the story<br></br> behind $GBULL</a></li>
             <li><a href="#tokenomics" className="">Tokenomics</a></li>
             <li><a href="#buy" className="">how to buy</a></li>
             <li>
