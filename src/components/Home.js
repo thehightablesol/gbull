@@ -65,9 +65,9 @@ export default function Home() {
 
                         <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-16'>
                             <p className='p-2 border-4 border-r-0 rounded-r-none border-black-100 bg-white-50 rounded-md font-chewy md:text-2xl text-sm tracking-wide'>
-                                CA: 50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
+                                CA: TBA
                             </p>
-                            <button onClick={() => copyToClipBoard('50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA')} ><img src={copy} alt='' className='w-16'></img></button>
+                            <button onClick={() => copyToClipBoard('TBA')} ><img src={copy} alt='' className='w-16'></img></button>
                             <span className="absolute duration-300 translate-y-12 -translate-x-3 font-chewy text-sm">
                                 {copySuccess}
                             </span>
@@ -75,10 +75,10 @@ export default function Home() {
 
                         <div className='md:hidden flex items-center justify-between lg:-translate-y-12 border-4 bg-white-50 rounded-md p-3'>
                             <p className='border-r-0 rounded-r-none border-black-100 font-chewy md:text-2xl text-sm tracking-wide break-words w-10/12'>
-                                CA:50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA
+                                CA:TBA
                             </p>
 
-                            <button onClick={() => copyToClipBoard('50Wc1d426sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA')} ><img src={copy} alt='' className='w-12'></img></button>
+                            <button onClick={() => copyToClipBoard('TBA')} ><img src={copy} alt='' className='w-12'></img></button>
                             <span className="absolute font-chewy -translate-y-14 text-sm">
                                 {copySuccess}
                             </span>
@@ -118,19 +118,19 @@ export default function Home() {
 
                             <div className='md:space-y-8 space-y-5 mt-8 text-yellow-100 text-outline md:text-3xl text-xl font-chewy'>
                                 <p data-aos='fade-in' className=''>
-                                    What's the secret behind all those legendary green candles and meme coin runs? It wasn't luck. It wasn't magic. It was a trainer, working tirelessly behind the Scenes.
+                                    In every cycle, there’s a moment when the market wakes up—when weak hands get liquidated, and only the strongest survive. That moment is now. Enter $GBULL, the ultimate embodiment of raw bullish energy, forged in the heat of the biggest rallies.
                                 </p>
 
                                 <p data-aos='fade-in' data-aos-delay='50' className=''>
-                                    For years, while the dog and cat memes grabbed the headlines, the Trainer was in the dojo, pushing them to their limits. Every pump, every breakout-it was the result of hard work, discipline, and focus.
+                                    While others hesitate, $GBULL charges forward, smashing resistance, flipping FUD into fuel, and sending every chart vertical. This isn’t just another memecoin—it’s the face of the next bull run, the GIGA bull leading the charge as the market roars back to life.
                                 </p>
 
                                 <p data-aos='fade-in' data-aos-delay='100' className=''>
-                                    Now, the Trainer is ready to step out of the shadows and take its own path. Built on Solana and powered by a community that doesn't quit, it's here to show what happens when the Trainer becomes the star.
+                                    No paper hands. No hesitation. Only full-force, high-testosterone bullishness—because real strength isn’t about watching charts, it’s about taking action.
                                 </p>
 
                                 <p data-aos='fade-in' data-aos-delay='150' className=''>
-                                    This isn't just another coin. It's a movement built on hustle, heart, and a drive to redefine what it means to pump.
+                                    The market is turning. The bulls are back. And at the front of the stampede?
                                 </p>
                             </div>
 
@@ -231,7 +231,7 @@ export default function Home() {
                                         3
                                     </p>
 
-                                    <p className='md:text-4xl text-2xl font-semibold font-chewy tracking-wider'>Go to Meteora</p>
+                                    <p className='md:text-4xl text-2xl font-semibold font-chewy tracking-wider'>Go to Raydium</p>
                                 </div>
 
                                 <div className='border-4 border-black-100 card-shadow md:p-8 p-6 rounded-lg flex items-center lg:gap-x-0 gap-x-5  duration-150 hover:scale-105'>
