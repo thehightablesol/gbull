@@ -25,7 +25,7 @@ export default function Menu() {
           <ul className="text-xl tracking-wide flex justify-center gap-10 items-center uppercase text-center">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#story" className="">the story<br></br> behind $pupm</a></li>
-            <li><a href="#pumpenomics" className="">Pumpenomics</a></li>
+            <li><a href="#tokenomics" className="">Tokenomics</a></li>
             <li><a href="#buy" className="">how to buy</a></li>
             <li>
               <a href='https://jup.ag/swap/SOL-5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'> <button className='bg-red-100 py-2 px-4 border-4 border-black-100 rounded-xl font-chewy text-yellow-100 uppercase text-outline text-2xl'>
@@ -65,7 +65,7 @@ export default function Menu() {
             <ul onClick={ToggleSidebar} className='space-y-6 text-xl'>
               <li><a href="/" className="">Home</a></li>
               <li><a href="#story" className="">the story<br></br> behind $pupm</a></li>
-              <li><a href="#pumpenomics" className="">Pumpenomics</a></li>
+              <li><a href="#tokenomics" className="">Tokenomics</a></li>
               <li><a href="#buy" className="">how to buy</a></li>
               <li>
                 <a href='https://jup.ag/swap/SOL-5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA'><button className='bg-red-100 py-2 px-4 border-4 border-black-100 rounded-xl font-chewy text-yellow-100 uppercase text-outline text-xl'>

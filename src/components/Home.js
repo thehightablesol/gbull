@@ -13,7 +13,7 @@ import b from '../assets/b.png'
 import d from '../assets/d.png'
 import buy from '../assets/buy.png'
 // import partners from '../assets/partners.png'
-import pumpenomics from '../assets/pumpenomics.png'
+import tokenomics from '../assets/tokenomics.png'
 import card1 from '../assets/card1.png'
 import card2 from '../assets/card2.png'
 import card3 from '../assets/card3.png'
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
 
 
-            {/* pump story section */}
+            {/* gigabull story section */}
 
             <div id='story' className="lg:px-20 px-5 lg:pt-20 pt-6 bg-story border-t-4 border-black-100">
                 <div className='container mx-auto'>
@@ -110,7 +110,7 @@ export default function Home() {
 
                                 <div className='rotate-3'>
                                     <p className='rounded-full py-2 px-5 border border-black-100 bg-white-100 text-outline font-bangers text-red-100 md:text-6xl text-3xl lg:w-1/2 lg:ml-72 lg:-mt-6 animate-beat'>
-                                        BEHIND $PUMP
+                                        BEHIND $GBull
                                     </p>
                                 </div>
 
@@ -146,9 +146,9 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* pumpenomics */}
+            {/* tokenomics */}
 
-            <div id='pumpenomics' className="lg:pt-20 pt-5 bg-yellow-100 lg:px-20 px-5 border-t-4 border-black-100">
+            <div id='tokenomics' className="lg:pt-20 pt-5 bg-yellow-100 lg:px-20 px-5 border-t-4 border-black-100">
 
                 <div className='container mx-auto'>
                     <div className='flex items-end'>
@@ -156,7 +156,7 @@ export default function Home() {
 
                         <div className='animate-beat lg:pb-20 pb-8'>
                             <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl -rotate-6 text-center uppercase'>
-                                pumpenomics
+                                tokenomics
                             </button>
                         </div>
                     </div>
@@ -180,19 +180,19 @@ export default function Home() {
                             <div data-aos='fade-in' className='text-blue-100 md:text-5xl text-3xl font-brother text-outline tracking-wide text-center uppercase lg:hidden block'>
                                 <p>token ticker</p>
                                 <p>-</p>
-                                <p>$pump</p>
+                                <p>$GBULL</p>
                             </div>
                         </div>
 
                         <div className='lg:w-6/12'>
-                            <img data-aos='fade-up' src={pumpenomics} alt='' className=''></img>
+                            <img data-aos='fade-up' src={tokenomics} alt='' className=''></img>
                         </div>
 
                         <div data-aos='fade-in' data-aos-delay='150' className='lg:w-3/12'>
                             <div className='text-blue-100 md:text-5xl text-2xl font-brother text-outline tracking-wide text-center uppercase lg:block hidden -translate-x-44'>
                                 <p>token ticker</p>
                                 <p>-</p>
-                                <p>$pump</p>
+                                <p>$GBULL</p>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@ export default function Home() {
                                         4
                                     </p>
 
-                                    <p className='md:text-4xl text-2xl font-semibold font-chewy tracking-wider'>Switch Solana for Pump</p>
+                                    <p className='md:text-4xl text-2xl font-semibold font-chewy tracking-wider'>Switch Solana for GBull</p>
                                 </div>
 
                             </div>
@@ -311,7 +311,7 @@ export default function Home() {
                                             4
                                         </p>
 
-                                        <p className='md:text-xl text-lg font-chewy tracking-wide pl-3'>Swap Solana for Pump</p>
+                                        <p className='md:text-xl text-lg font-chewy tracking-wide pl-3'>Swap Solana for GBull</p>
                                     </div>
                                 </div>
                             </div>
