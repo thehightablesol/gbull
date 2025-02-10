@@ -58,9 +58,6 @@ export default function Home() {
                         <div className='flex items-center lg:justify-start justify-center lg:-translate-y-20'>
                             <a href='https://t.co/rMNr9LWk3h' target='_blank' rel="noreferrer"><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                             <a href='https://x.com/pumpbysol' target='_blank' rel="noreferrer"><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://www.instagram.com/pumpbysol/'><img src={icon3} alt='instagram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://www.dextools.io/app/en/solana/pair-explorer/BnWyvLffiDViDrhvKoLZ24XwjCZwsjjFbuEuaT2Sbha2?t=1732941262458' target='_blank' rel="noreferrer"><img src={icon4} alt='dextools' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://dexscreener.com/solana/bnwyvlffidvidrhvkolz24xwjczwsjjfbueuat2sbha2' target='_blank' rel="noreferrer"><img src={icon5} alt='dexscreener' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                         </div>
 
                         <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-16'>
@@ -156,7 +153,7 @@ export default function Home() {
 
                         <div className='animate-beat lg:pb-20 pb-8'>
                             <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl -rotate-6 text-center uppercase'>
-                                tokenomics
+                                Giganomics
                             </button>
                         </div>
                     </div>
@@ -239,7 +236,7 @@ export default function Home() {
                                         4
                                     </p>
 
-                                    <p className='md:text-4xl text-2xl font-semibold font-chewy tracking-wider'>Switch Solana for GBull</p>
+                                    <p className='md:text-4xl text-2xl font-semibold font-chewy tracking-wider'>Switch Solana for $GBull</p>
                                 </div>
 
                             </div>
@@ -311,7 +308,7 @@ export default function Home() {
                                             4
                                         </p>
 
-                                        <p className='md:text-xl text-lg font-chewy tracking-wide pl-3'>Swap Solana for GBull</p>
+                                        <p className='md:text-xl text-lg font-chewy tracking-wide pl-3'>Swap Solana for $GBull</p>
                                     </div>
                                 </div>
                             </div>
