@@ -1,7 +1,6 @@
 import React from 'react'
 import icon1 from '../assets/icon1.png';
 import icon2 from '../assets/icon2.png';
-import icon3 from '../assets/icon3.png';
 import social from '../assets/social.png';
 import bottom from '../assets/bottom.jpeg';
 
