@@ -9,7 +9,7 @@ import bottom from '../assets/bottom.jpeg';
 export default function Footer() {
   return (
 
-    <footer className='bg-blue-100 lg:px-20 px-5 lg:py-12 py-8'>
+    <footer className='bg-[#61d2ff] lg:px-20 px-5 lg:py-12 py-8'>
       <div className='container mx-auto'>
 
         <img src={social} alt='' className='flex mx-auto lg:w-8/12 lg:mb-24 mb-8  animate-beat'></img>
