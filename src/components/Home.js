@@ -44,7 +44,7 @@ export default function Home() {
     return (
         <div className="overflow-hidden text-black-100 bg-white-50">
 
-            <div className="lg:px-20 px-5 bg-yellow-100 md:h-auto h-screen">
+            <div className="lg:px-20 px-5 bg-[#61d2ff] md:h-auto h-screen">
                 <div className='container mx-auto'>
 
                     <Menu />
