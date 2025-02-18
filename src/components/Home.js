@@ -97,7 +97,7 @@ export default function Home() {
                             <img src={a} alt='' className='md:w-28 w-24 absolute z-10 lg:-mt-10 -mt-6 lg:-ml-16 -ml-1'></img>
                             <div className='text-center'>
                                 <div className='-rotate-6'>
-                                    <p className='rounded-full py-2 px-8 border border-black-100 bg-yellow-50 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl lg:w-1/2 animate-beat'>
+                                    <p className='rounded-full py-2 px-8 border border-black-100 bg-[#61d2ff] text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl lg:w-1/2 animate-beat'>
                                         THE STORY
                                     </p>
                                 </div>
@@ -110,7 +110,7 @@ export default function Home() {
 
                             </div>
 
-                            <div className='md:space-y-8 space-y-5 mt-8 text-[#61d2ff] text-outline md:text-3xl text-xl font-chewy'>
+                            <div className='md:space-y-8 space-y-5 mt-8 bg-[#FF5757] text-outline md:text-3xl text-xl font-chewy'>
                                 <p data-aos='fade-in' className=''>
                                     In every cycle, there’s a moment when the market wakes up—when weak hands get liquidated, and only the strongest survive. That moment is now. Enter $GBULL, the ultimate embodiment of raw bullish energy, forged in the heat of the biggest rallies.
                                 </p>
@@ -149,7 +149,7 @@ export default function Home() {
                         <img src={b} alt='' className='md:w-28 w-20 translate-x-12 z-10 rotate-6 md:-translate-y-12 -translate-y-5'></img>
 
                         <div className='animate-beat lg:pb-20 pb-8'>
-                            <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl -rotate-6 text-center uppercase'>
+                            <button className='rounded-full py-2 px-12 border border-black-100 bg-[#FF5757] text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl -rotate-6 text-center uppercase'>
                                 Giganomics
                             </button>
                         </div>
@@ -242,7 +242,7 @@ export default function Home() {
                         <div className='lg:w-7/12'>
                             <div className='flex items-end justify-end'>
                                 <div className='animate-beat'>
-                                    <button className='rounded-full py-2 px-16 border border-black-100 bg-yellow-50 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl rotate-6 text-center uppercase lg:float-right'>
+                                    <button className='rounded-full py-2 px-16 border border-black-100 bg-[#FF5757] text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl rotate-6 text-center uppercase lg:float-right'>
                                         how to buy
                                     </button>
                                 </div>
