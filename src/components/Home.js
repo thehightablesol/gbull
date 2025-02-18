@@ -97,20 +97,20 @@ export default function Home() {
                             <img src={a} alt='' className='md:w-28 w-24 absolute z-10 lg:-mt-10 -mt-6 lg:-ml-16 -ml-1'></img>
                             <div className='text-center'>
                                 <div className='-rotate-6'>
-                                    <p className='rounded-full py-2 px-8 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl lg:w-1/2 animate-beat'>
+                                    <p className='rounded-full py-2 px-8 border border-black-100 bg-yellow-50 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl lg:w-1/2 animate-beat'>
                                         THE STORY
                                     </p>
                                 </div>
 
                                 <div className='rotate-3'>
-                                    <p className='rounded-full py-2 px-5 border border-black-100 bg-white-100 text-outline font-bangers text-red-100 md:text-6xl text-3xl lg:w-1/2 lg:ml-72 lg:-mt-6 animate-beat'>
+                                    <p className='rounded-full py-2 px-5 border border-black-100 bg-white-100 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl lg:w-1/2 lg:ml-72 lg:-mt-6 animate-beat'>
                                         BEHIND $GBull
                                     </p>
                                 </div>
 
                             </div>
 
-                            <div className='md:space-y-8 space-y-5 mt-8 text-yellow-100 text-outline md:text-3xl text-xl font-chewy'>
+                            <div className='md:space-y-8 space-y-5 mt-8 text-[#61d2ff] text-outline md:text-3xl text-xl font-chewy'>
                                 <p data-aos='fade-in' className=''>
                                     In every cycle, there’s a moment when the market wakes up—when weak hands get liquidated, and only the strongest survive. That moment is now. Enter $GBULL, the ultimate embodiment of raw bullish energy, forged in the heat of the biggest rallies.
                                 </p>
@@ -142,14 +142,14 @@ export default function Home() {
 
             {/* tokenomics */}
 
-            <div id='tokenomics' className="lg:pt-20 pt-5 bg-yellow-100 lg:px-20 px-5 border-t-4 border-black-100">
+            <div id='tokenomics' className="lg:pt-20 pt-5 bg-[#61d2ff] lg:px-20 px-5 border-t-4 border-black-100">
 
                 <div className='container mx-auto'>
                     <div className='flex items-end'>
                         <img src={b} alt='' className='md:w-28 w-20 translate-x-12 z-10 rotate-6 md:-translate-y-12 -translate-y-5'></img>
 
                         <div className='animate-beat lg:pb-20 pb-8'>
-                            <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl -rotate-6 text-center uppercase'>
+                            <button className='rounded-full py-2 px-12 border border-black-100 bg-yellow-50 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl -rotate-6 text-center uppercase'>
                                 Giganomics
                             </button>
                         </div>
@@ -242,7 +242,7 @@ export default function Home() {
                         <div className='lg:w-7/12'>
                             <div className='flex items-end justify-end'>
                                 <div className='animate-beat'>
-                                    <button className='rounded-full py-2 px-16 border border-black-100 bg-yellow-50 text-outline font-bangers text-red-100 md:text-6xl text-3xl rotate-6 text-center uppercase lg:float-right'>
+                                    <button className='rounded-full py-2 px-16 border border-black-100 bg-yellow-50 text-outline font-bangers text-[#61d2ff] md:text-6xl text-3xl rotate-6 text-center uppercase lg:float-right'>
                                         how to buy
                                     </button>
                                 </div>
@@ -316,7 +316,7 @@ export default function Home() {
 
             {/* about us section */}
 
-            <div id='about' className="lg:px-20 px-5 lg:py-24 py-6 bg-blue-100 border-t-4 border-black-100">
+            <div id='about' className="lg:px-20 px-5 lg:py-24 py-6 bg-[#61d2ff] border-t-4 border-black-100">
                 <div className='container mx-auto'>
 
                     <div className='lg:mb-20 mb-8'>
