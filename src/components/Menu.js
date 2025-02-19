@@ -18,7 +18,7 @@ export default function Menu() {
       <div className="lg:flex hidden items-center justify-between h-32 font-brother">
 
         <a href="/" className="">
-          <img src={logo} alt="Logo" className='w-60' />
+          <img src={logo} alt="Logo" className='w-48' />
         </a>
 
         <nav>
