@@ -112,19 +112,19 @@ export default function Home() {
 
                             <div className='md:space-y-8 space-y-5 mt-8 text-[#61d2ff] text-outline md:text-3xl text-xl font-chewy'>
                                 <p data-aos='fade-in' className=''>
-                                    In every cycle, there’s a moment when the market wakes up—when weak hands get liquidated, and only the strongest survive. That moment is now. Enter $GBULL, the ultimate embodiment of raw bullish energy, forged in the heat of the biggest rallies.
+                                    The Solana trenches are ruthless. A battlefield of abandoned projects, empty promises, and forgotten communities. For too long, degens have fought through the wreckage, searching for something real—something that won’t vanish overnight. That time has come. Enter $GBULL—the unbreakable force here to restore order and lead Solana’s resurgence.
                                 </p>
 
                                 <p data-aos='fade-in' data-aos-delay='50' className=''>
-                                    While others hesitate, $GBULL charges forward, smashing resistance, flipping FUD into fuel, and sending every chart vertical. This isn’t just another memecoin—it’s the face of the next bull run, the GIGA bull leading the charge as the market roars back to life.
+                                    Forged in the depths of the market’s hardest times, $GBULL doesn’t run—it charges. Where others fade, it holds the line. Where uncertainty lingers, it clears the path, paving the way for a real, unstoppable movement. No more weak hands. No more false idols. Just raw bullish conviction and a community built to last.
                                 </p>
 
                                 <p data-aos='fade-in' data-aos-delay='100' className=''>
-                                    No paper hands. No hesitation. Only full-force, high-testosterone bullishness—because real strength isn’t about watching charts, it’s about taking action.
+                                    While others hesitate, $GBULL smashes through resistance, turning every dip into a launchpad. This isn’t just another memecoin—it’s a war cry for the trenches, a signal that Solana is back, stronger than ever.
                                 </p>
 
                                 <p data-aos='fade-in' data-aos-delay='150' className=''>
-                                    The market is turning. The bulls are back. And at the front of the stampede?
+                                    The market is waking up. The bulls are reclaiming their territory. And leading the charge? $GBULL—the savior of Solana.
                                 </p>
                             </div>
 
