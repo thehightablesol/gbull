@@ -54,7 +54,7 @@ export default function Home() {
 
                         <div className='flex items-center lg:justify-start justify-center lg:-translate-y-20'>
                             <a href='https://t.co/' target='_blank' rel="noreferrer"><img src={icon1} alt='telegram' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
-                            <a href='https://x.com/Gigabullsol' target='_blank' rel="noreferrer"><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
+                            <a href='https://x.com/' target='_blank' rel="noreferrer"><img src={icon2} alt='twitter' className='md:w-24 w-16 duration-150 animate-wiggle'></img></a>
                         </div>
 
                         <div className='md:flex hidden items-center lg:justify-end justify-center lg:-translate-y-16'>
